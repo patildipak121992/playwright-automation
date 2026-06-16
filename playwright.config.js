@@ -78,7 +78,7 @@ export default defineConfig({
   //   reuseExistingServer: !process.env.CI,
   // },
   use: {
-  headless: false,
+  headless: true,
   screenshot: 'on',
   video: 'on',
   trace: 'on'
